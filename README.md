@@ -1,4 +1,4 @@
-# minima file
+# minima
 
 _Minima is a one-size-fits-all Jekyll theme for writers_. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
 
