@@ -203,6 +203,47 @@ To display post-excerpts on the Home Page, simply add the following to your `_co
 show_excerpts: true
 ```
 
+--
+
+## Jekyll
+
+Jekyll is a static site generator that transforms plain text files (mostly written in Markdown) into websites or blogs. It's widely used with GitHub Pages to host websites directly from a GitHub repository. Here's a cheat sheet to help you get started with Jekyll:
+
+### Installation and Setup
+
+  1. Install Ruby, RubyGems, and Jekyll:
+
+      - On macOS:
+      
+        ```
+        brew install ruby
+        gem install jekyll bundler
+        ```
+
+      - On Ubuntu:
+      
+        ```
+        sudo apt-get install ruby ruby-dev build-essential
+        sudo gem install jekyll bundler
+        ```
+
+  2. Create a new Jekyll site:
+
+      ```
+      jekyll new my-awesome-site
+      cd my-awesome-site
+      ```
+
+  3. Run the site locally:
+
+      ```
+      bundle exec jekyll serve
+      ```
+
+  Visit http://localhost:4000 to view your site.
+
+
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/jekyll/minima. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
