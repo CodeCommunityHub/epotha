@@ -93,3 +93,7 @@ A horizontal rule can be added using three or more hyphens (---).
 - [x] Task 1
 - [ ] Task 2
 - [ ] Task 3
+
+---
+
+[Go back to the main page](index.markdown)
