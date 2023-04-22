@@ -69,3 +69,14 @@ Code blocks can be added using triple backticks:
 </html>
 ```
 
+## Blockquotes
+
+Blockquotes can be created using the greater than symbol (>).
+
+> This is a blockquote
+
+## Horizontal Rule
+
+A horizontal rule can be added using three or more hyphens (---).
+
+---
