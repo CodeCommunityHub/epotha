@@ -80,3 +80,16 @@ Blockquotes can be created using the greater than symbol (>).
 A horizontal rule can be added using three or more hyphens (---).
 
 ---
+
+## Tables
+
+| Column 1 | Column 2 | Column 3 |
+| --- | --- | --- |
+| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
+| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
+
+## Task Lists
+
+- [x] Task 1
+- [ ] Task 2
+- [ ] Task 3
