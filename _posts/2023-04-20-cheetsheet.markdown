@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Makedown cheetsheet"
+date: 2023-04-20 23:30:24 +0530
+categories: cheetsheet
+---
+
 # Makedown cheetsheet post
 
 ## Headers
@@ -5,10 +12,15 @@
 Headers can be created using the pound `(#)` symbol.
 
 # H1 Header
+
 ## H2 Header
+
 ### H3 Header
+
 #### H4 Header
+
 ##### H5 Header
+
 ###### H6 Header
 
 ## Emphasis
@@ -17,18 +29,18 @@ You can add emphasis by making text bold or italic.
 
 Bold: **This text is bold**
 
-Italic: *This text is italicized*
+Italic: _This text is italicized_
 
-Bold and Italic: ***This text is bold and italicized***
+Bold and Italic: **_This text is bold and italicized_**
 
 ## Lists
 
 ### Unordered List
 
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
+- Item 1
+- Item 2
+  - Item 2a
+  - Item 2b
 
 ### Ordered List
 
@@ -83,8 +95,8 @@ A horizontal rule can be added using three or more hyphens (---).
 
 ## Tables
 
-| Column 1 | Column 2 | Column 3 |
-| --- | --- | --- |
+| Column 1        | Column 2        | Column 3        |
+| --------------- | --------------- | --------------- |
 | Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
 | Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
 
@@ -96,4 +108,4 @@ A horizontal rule can be added using three or more hyphens (---).
 
 ---
 
-[Go back to the main page](index.markdown)
+[Go back to the main page](/)
