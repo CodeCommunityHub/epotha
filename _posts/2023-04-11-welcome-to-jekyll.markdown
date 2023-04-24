@@ -1,29 +1,45 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2023-04-11 23:30:24 +0530
+title: "Welcome to Jekyll!"
+date: 2023-04-11 23:30:24 +0530
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+## Jekyll
 
-`YEAR-MONTH-DAY-title.MARKUP`
+Jekyll is a static site generator that transforms plain text files (mostly written in Markdown) into websites or blogs. It's widely used with GitHub Pages to host websites directly from a GitHub repository. Here's a cheat sheet to help you get started with Jekyll:
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+### Installation and Setup
 
-Jekyll also offers powerful support for code snippets:
+1. Install Ruby, RubyGems, and Jekyll:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+   - On macOS:
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+     ```
+     brew install ruby
+     gem install jekyll bundler
+     ```
+
+   - On Ubuntu:
+
+     ```
+     sudo apt-get install ruby ruby-dev build-essential
+     sudo gem install jekyll bundler
+     ```
+
+2. Create a new Jekyll site:
+
+   ```
+   jekyll new my-awesome-site
+   cd my-awesome-site
+   ```
+
+3. Run the site locally:
+
+   ```
+   bundle exec jekyll serve
+   ```
+
+Visit http://localhost:4000 to view your site.
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
